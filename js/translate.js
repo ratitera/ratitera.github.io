@@ -88,7 +88,7 @@ const DICTIONARY = {
     'content_man': {'en': 'Content Manager, Copywriter', 'ge': 'კონტენტ მენეჯერი, ქოფირაითერი'},
     'nebula_resp': {
         'small': true,
-        'en': 'Responsible for creating and posting content for social media, writing copy for web-site and responding to social media messages.',
+        'en': 'Responsible for creating and posting content for social media, writing copy for web-site and responding to inbox messages.',
         'ge': 'კონტენტის მოფიქრება და განთავსება სოციალურ მედიაში,\n' +
         'ვებ-საიტის ქოფირაითინგი,\n' +
         'ინბოქსში შემოსულ მესიჯებზე პასუხი'
