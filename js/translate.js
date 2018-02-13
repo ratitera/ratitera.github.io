@@ -86,11 +86,12 @@ const DICTIONARY = {
     'around_web': {'en': 'Around the Web', 'ge': 'მიპოვეთ ინტერნეტში'},
     'email_me': {'small': true, 'en': 'Email me at', 'ge': 'მომწერეთ ელ-ფოსტაზე '},
     'content_man': {'en': 'Content Manager, Copywriter', 'ge': 'უმცროსი ვებ დეველოპერი'},
-    'designge': {
+    'nebula_resp': {
         'small': true,
-        'en': 'Responsible for fixing bugs or adding new features to already deployed or almost complete web\n' +
-        '                  projects.', 'ge': 'პასუხისმგებელი დასრულებულ ან თითქმის დასრულებულ ვებ პროექტებში ' +
-        'ბაგების გასწორებასა და ახალი ფუნქციონალის დამატებაზე.'
+        'en': 'Responsible for creating and posting content for social media writing copy for web-site responding to the inbox messages.',
+        'ge': 'კონტენტის მოფიქრება და განთავსება სოციალურ მედიაში\n' +
+        'ვებ-საიტის ქოფირაითინგი\n' +
+        'ინბოქსში შემოსულ მესიჯებზე პასუხი'
     },
     'nebula_date': {
         'en': 'November 2017 - present',
