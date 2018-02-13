@@ -82,7 +82,7 @@ const DICTIONARY = {
     'gifts': {'en': 'Send me cool gadgets at', 'ge': 'ამავსეთ საჩუქრებით: '},
     'skills': {'en': 'Skills', 'ge': 'უნარები'},
     'soft': {'en': 'Software', 'ge': 'პროგრამები'},
-    'code_framework': {'en': 'Programming Language/Frameworks', 'ge': 'პროგრამირების ენები/ფრეიმვორკები'},
+    'personal': {'en': 'Personal', 'ge': 'პიროვნული'},
     'around_web': {'en': 'Around the Web', 'ge': 'მიპოვეთ ინტერნეტში'},
     'email_me': {'small': true, 'en': 'Email me at', 'ge': 'მომწერეთ ელ-ფოსტაზე '},
     'content_man': {'en': 'Content Manager, Copywriter', 'ge': 'უმცროსი ვებ დეველოპერი'},
@@ -104,7 +104,23 @@ const DICTIONARY = {
         'small': true,
         'en': 'Writing articles about Georgia in English.\n',
         'ge': 'სტატიების წერა ინგლისურად საქართველოს სხვადასხვა კუთხეზე.'
-    }, 'bookgeo_date': {'en': '2017 August - present', 'ge': 'აგვისტო 2017 - დღემდე', 'small': true}
+    },
+    'bookgeo_date': {'en': '2017 August - present', 'ge': 'აგვისტო 2017 - დღემდე', 'small': true},
+    'languages': {'en': 'Languages', 'ge': 'ენები'},
+    'lang_ge': {'en': 'Georgian', 'ge': 'ქართული'},
+    'lang_en': {'en': 'English', 'ge': 'ინგლისური'},
+    'lang_ru': {'en': 'Russian', 'ge': 'რუსული'},
+    'lang_nat': {'en': 'Native', 'ge': 'მშობლიური'},
+    'lang_flu': {'en': 'Fluent', 'ge': 'თავისუფლად'},
+    'lang_lim': {'en': 'Limited', 'ge': 'შეზღუდული'},
+    'advanced': {'en': 'Advanced', 'ge': 'კარგად'},
+    'basic': {'en': 'Basic', 'ge': 'საწყისები'},
+    'func_writing': {'en': 'Functional and laconic writing', 'ge': 'ფუნქციურად და ლაკონიურად წერა'},
+    'punctuation': {'en': 'Proper use of punctuation marks', 'ge': 'სასვენი ნიშნების სწორად გამოყენება'},
+    'space_det': {'en': 'Detecting extra whitespaces in texts', 'ge': 'ზედმეტი Space-ების შემჩნევა'},
+    'googling': {'en': 'Googling', 'ge': 'დაგუგლვა'},
+
+
 };
 
 function translate(lang) {

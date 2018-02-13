@@ -450,6 +450,10 @@
   color: white;
 }
 
+.work_link:visited {
+  color: white;
+}
+
 .skill_decription {
   position: relative;
   left: 10px;
