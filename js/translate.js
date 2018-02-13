@@ -24,11 +24,11 @@ const DICTIONARY = {
     'promete': {'en': 'Private School Promete', 'ge': 'სკოლა-ლიცეუმი პრომეთე'},
     'midhigh': {'en': 'Middle/High School', 'ge': 'საშუალო სკოლა'},
     'freeuni': {'en': 'Free University Of Tbilisi', 'ge': 'თბილისის თავისუფალი უნივერსიტეტი'},
-    'degree': {'en': 'Bachelor of Computing', 'ge': 'ბაკალვრი კომპიუტინგში'},
+    'degree': {'en': 'Bachelor of Social Sciences', 'ge': 'ბაკალვრი სოციალურ მეცნიერებებში'},
     'date': {'en': 'September 2015 - Present', 'ge': 'სექტემბერი 2015 - დღემდე'},
     'work': {'en': 'Work', 'ge': 'სამუშაო გამოცდილება'},
-    'about': {'en': 'About', 'ge': 'ჩემს შესახებ'},
-    'about_2': {'en': 'About me', 'ge': 'ჩემს შესახებ'},
+    'about': {'en': 'About', 'ge': 'ჩემ შესახებ'},
+    'about_2': {'en': 'About me', 'ge': 'ჩემ შესახებ'},
     'down_cv': {'small': true, 'en': 'Download resume', 'ge': 'გადმოწერეთ რეზიუმე'},
     'resume': {'en': 'Resume', 'ge': 'რეზიუმე'},
     'contact': {'en': 'Contact', 'ge': 'დამიკავშირდით'},
@@ -85,7 +85,7 @@ const DICTIONARY = {
     'personal': {'en': 'Personal', 'ge': 'პიროვნული'},
     'around_web': {'en': 'Around the Web', 'ge': 'მიპოვეთ ინტერნეტში'},
     'email_me': {'small': true, 'en': 'Email me at', 'ge': 'მომწერეთ ელ-ფოსტაზე '},
-    'content_man': {'en': 'Content Manager, Copywriter', 'ge': 'უმცროსი ვებ დეველოპერი'},
+    'content_man': {'en': 'Content Manager, Copywriter', 'ge': 'კონტენტ მენეჯერი, ქოფირაითერი'},
     'nebula_resp': {
         'small': true,
         'en': 'Responsible for creating and posting content for social media writing copy for web-site responding to the inbox messages.',
@@ -94,8 +94,8 @@ const DICTIONARY = {
         'ინბოქსში შემოსულ მესიჯებზე პასუხი'
     },
     'nebula_date': {
-        'en': '2017 - present',
-        'ge': '2017 - დღემდე',
+        'en': 'February 2017 - present',
+        'ge': 'თებერვალი 2017 - დღემდე',
         'small': true
     },
 
@@ -112,7 +112,7 @@ const DICTIONARY = {
     'lang_ru': {'en': 'Russian', 'ge': 'რუსული'},
     'lang_nat': {'en': 'Native', 'ge': 'მშობლიური'},
     'lang_flu': {'en': 'Fluent', 'ge': 'თავისუფლად'},
-    'lang_lim': {'en': 'Limited', 'ge': 'შეზღუდული'},
+    'lang_lim': {'en': 'Limited', 'ge': 'ისე რა'},
     'advanced': {'en': 'Advanced', 'ge': 'კარგად'},
     'basic': {'en': 'Basic', 'ge': 'საწყისები'},
     'func_writing': {'en': 'Functional and laconic writing', 'ge': 'ფუნქციურად და ლაკონიურად წერა'},
