@@ -99,6 +99,12 @@ const DICTIONARY = {
         'small': true
     },
 
+    'cpywrt': {'en': 'Copywriter', 'ge': 'ქოფირაითერი'},
+    'bookgeo_descr': {
+        'small': true,
+        'en': 'Writing articles about Georgia in English.\n',
+        'ge': 'სტატიების წერა ინგლისურად საქართველოს სხვადასხვა კუთხეზე.'
+    }, 'bookgeo_date': {'en': '2017 August - present', 'ge': 'აგვისტო 2017 - დღემდე', 'small': true}
 };
 
 function translate(lang) {

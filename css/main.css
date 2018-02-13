@@ -440,3 +440,22 @@
   border-radius: 10%;
 
 }
+
+#prof_image {
+  width: 257px;
+  border-radius: 100%;
+}
+
+.work_link {
+  color: white;
+}
+
+.skill_decription {
+  position: relative;
+  left: 10px;
+}
+
+.skill-flag {
+  left: 10px
+
+}
