@@ -94,8 +94,8 @@ const DICTIONARY = {
         'ინბოქსში შემოსულ მესიჯებზე პასუხი'
     },
     'nebula_date': {
-        'en': 'November 2017 - present',
-        'ge': 'ნოემბერი 2017 - დღემდე',
+        'en': '2017 - present',
+        'ge': '2017 - დღემდე',
         'small': true
     },
 
