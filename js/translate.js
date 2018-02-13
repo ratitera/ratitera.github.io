@@ -18,9 +18,11 @@ const DICTIONARY = {
     'nov': {'en': 'November', 'ge': 'ნოემბერი'},
     'dec': {'en': 'December', 'ge': 'დეკემბერი'},
     '': {'en': '', 'ge': ''},
-    'name': {'en': 'Niko Barateli', 'ge': 'ნიკო ბარათელი'},
-    'software_dev': {'en': 'Software Developer', 'ge': 'პროგრამული უზრუნველყოფის დეველოპერი'},
+    'name': {'en': 'Rati Terashvili', 'ge': 'რატი ტერაშვილი'},
+    'dig_market': {'en': 'Copywriter', 'ge': 'ქოფირაითერი'},
     'edu': {'en': 'Education', 'ge': 'განათლება'},
+    'promete': {'en': 'Private School Promete', 'ge': 'სკოლა-ლიცეუმი პრომეთე'},
+    'midhigh': {'en': 'Middle/High School', 'ge': 'საშუალო სკოლა'},
     'freeuni': {'en': 'Free University Of Tbilisi', 'ge': 'თბილისის თავისუფალი უნივერსიტეტი'},
     'degree': {'en': 'Bachelor of Computing', 'ge': 'ბაკალვრი კომპიუტინგში'},
     'date': {'en': 'September 2015 - Present', 'ge': 'სექტემბერი 2015 - დღემდე'},
@@ -32,14 +34,8 @@ const DICTIONARY = {
     'contact': {'en': 'Contact', 'ge': 'დამიკავშირდით'},
     'about_me': {
         'small': true,
-        'en': 'Hi. My name is Niko Barateli, I\'m a junior at Free University of Tbilisi.\n' +
-        'I can quickly learn new skills and adapt to a new environment. I\'m very punctual and enthusiastic towards my work.\n' +
-        'I love solving problems, writing efficient code with good style and design and learning new technologies.'
-        ,
-        'ge': 'გამარჯობა. მე ვარ ნიკო ბარათელი, თბილისის თავისუფალი უნივერსიტეტის, კომპიუტერული მეცნიერებებისა და მათემატიკის სკოლის მესამე კურსის სტუდენტი.\n' +
-        'კომპიუტერულ მეცნირებებს ვსწავლობ ორ წელზე მეტია. ამ ორი წლის განმავლობაში ვიყავი ლექტორი ერთ-ერთი ასისტენტი (საგანი: პროგრამირების აბსტრაქციები, C++).\n' +
-        'შემიძლია სწრაფად ავითვისო ახალი უნარები და მოვერგო ახალ გარემოს. ვარ პუნქტუალური და საქმის მიმართ ენთუზიასტურად განწყობილი. მიყვარს კარგი სტილის და დიზაინის მქონე, მაქსიმალურად მოქნილი კოდის წერა, არსებულის გაუმჯობესება, ახალი ტექნოლოგიების შესწავლა და ახალ ამოცანებთან გამკლავება. \n' +
-        'ასევე, საუნივერსიტეტო განათლების ფარგლებში, მაქვს გუნდთან ერთად მუშაობის გამოცდილებაც (მიმუშავია github-ის გამოყენებით). ამჟამად, ჩემი დაინტერესების სფეროს წარმოადგენს ვებ დეველოპმენტი. საწყის დონეზე ვიცი Java EE, ASP.NET Core MVC და მაქვს სურვილი ეს ცოდნა პრაქტიკით გავაღრმავო. \n'
+        'en': 'Rati',
+        'ge': 'რატი თურაშაული'
     },
     'methodology': {'en': 'Programming Methodology', 'ge': 'პროგრამირების მეთოდოლოგა', 'small': true},
     'abstractions': {'en': 'Programming Abstractions', 'ge': 'პროგრამირების აბსტრაქციები', 'small': true},
@@ -89,13 +85,14 @@ const DICTIONARY = {
     'code_framework': {'en': 'Programming Language/Frameworks', 'ge': 'პროგრამირების ენები/ფრეიმვორკები'},
     'around_web': {'en': 'Around the Web', 'ge': 'მიპოვეთ ინტერნეტში'},
     'email_me': {'small': true, 'en': 'Email me at', 'ge': 'მომწერეთ ელ-ფოსტაზე '},
-    'jundev': {'en': 'Junior Web Developer', 'ge': 'უმცროსი ვებ დეველოპერი'},
+    'content_man': {'en': 'Content Manager, Copywriter', 'ge': 'უმცროსი ვებ დეველოპერი'},
     'designge': {
         'small': true,
         'en': 'Responsible for fixing bugs or adding new features to already deployed or almost complete web\n' +
         '                  projects.', 'ge': 'პასუხისმგებელი დასრულებულ ან თითქმის დასრულებულ ვებ პროექტებში ' +
         'ბაგების გასწორებასა და ახალი ფუნქციონალის დამატებაზე.'
-    }, 'designge_date': {
+    },
+    'nebula_date': {
         'en': 'November 2017 - present',
         'ge': 'ნოემბერი 2017 - დღემდე',
         'small': true
