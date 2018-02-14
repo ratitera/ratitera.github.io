@@ -34,8 +34,8 @@ const DICTIONARY = {
     'contact': {'en': 'Contact', 'ge': 'დამიკავშირდით'},
     'about_me': {
         'small': true,
-        'en': 'Rati',
-        'ge': 'რატი თურაშაული'
+        'en': 'Hey, it\'s Rati over here - huge lover of XXI century, puppies and juices. Also, I like writing a lot!',
+        'ge': 'სალამი! მე რატი ვარ - XXI საუკუნის, ლეკვების და წვენების დიდი მოყვარული. და, ჰო, წერაც მომწონს ძალიან!'
     },
     'methodology': {'en': 'Programming Methodology', 'ge': 'პროგრამირების მეთოდოლოგა', 'small': true},
     'abstractions': {'en': 'Programming Abstractions', 'ge': 'პროგრამირების აბსტრაქციები', 'small': true},
