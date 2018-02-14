@@ -110,7 +110,7 @@ const DICTIONARY = {
     'lang_ge': {'en': 'Georgian', 'ge': 'ქართული'},
     'lang_en': {'en': 'English', 'ge': 'ინგლისური'},
     'lang_ru': {'en': 'Russian', 'ge': 'რუსული'},
-    'lang_nat': {'en': 'Native', 'ge': 'მშობლიური'},
+    'lang_nat': {'en': 'Native', 'ge': 'მშობლიურად'},
     'lang_flu': {'en': 'Fluent', 'ge': 'თავისუფლად'},
     'lang_lim': {'en': 'Limited', 'ge': 'ისე რა'},
     'advanced': {'en': 'Advanced', 'ge': 'კარგად'},
