@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
+  <script src="vendor/jquery/jquery.js"></script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="Rati Terashvili - ">
@@ -9,7 +9,9 @@
   <meta name="keywords" content="Rati, Rati Terashvili,Java,C#,PHP,HTML,CSS,JavaScript, Developer, Web, Front">
 
   <title class="lang" key="name">Rati Terashvili</title>
+  <link type="text/css" rel="stylesheet" href="vendor/lightslider/css/lightslider.css"/>
 
+  <script src="vendor/lightslider/js/lightslider.js"></script>
   <link rel="stylesheet" href="css/normalize.min.css">
   <link rel="stylesheet" href="css/default.css">
   <link rel="stylesheet" href="vendor/font-awesome/4.7/css/font-awesome.min.css">
@@ -90,7 +92,20 @@
 <!-- Header -->
 <header class="masthead">
   <div class="container">
-    <img class="img-fluid " id="prof_image" src="img/profile.png" alt="Rati Terashvili">
+    <div class="demo">
+      <ul id="lightSlider">
+        <li data-thumb="http://sachinchoolur.github.io/lightslider/img/thumb/cS-1.jpg">
+          <img class="img-fluid prof_image" src="img/rati%20(1).png"/>
+        </li>
+        <li data-thumb="http://sachinchoolur.github.io/lightslider/img/thumb/cS-2.jpg">
+          <img class="img-fluid prof_image" src="img/rati%20(2).png"/>
+        </li>
+        <li data-thumb="http://sachinchoolur.github.io/lightslider/img/thumb/cS-3.jpg">
+          <img class="img-fluid prof_image" src="img/rati%20(3).png"/>
+        </li>
+      </ul>
+    </div>
+    <!--<img class="img-fluid " id="prof_image" src="img/profile.png" alt="Rati Terashvili">-->
     <div class="intro-text">
       <span class="name lang" key="name">Rati Terashvili</span>
       <hr class="star-light">
@@ -446,7 +461,7 @@
 <!-- Portfolio Modals -->
 
 <!-- Bootstrap core JavaScript -->
-<script src="vendor/jquery/jquery.js"></script>
+
 <script src="js/main.js"></script>
 <script src="vendor/popper/popper.min.js"></script>
 <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
