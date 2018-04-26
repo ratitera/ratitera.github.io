@@ -2,7 +2,7 @@ function changeLang(lang) {
     console.log(lang)
 }
 
-const AVAILABLE_LANGUAGES = ['ge', 'en']
+const AVAILABLE_LANGUAGES = ['ge', 'en'];
 
 const DICTIONARY = {
     'jan': {'en': 'January', 'ge': 'იანვარი'},
@@ -71,13 +71,6 @@ const DICTIONARY = {
         'ძირითად კურსებში და შეაფასონ მათ მიერ შესრულებული დავალებები აღნიშნულ კურსებში' +
         ' ფუნქციონალურობის, ეფექტურობის, სტილის და დოკუმენტაციის მიხედვით.'
     },
-    'address': {
-        'small': true, 'en': '\n' +
-        '              10a Demetre Tavdadebuli Street, Apt &numero;12,<br>\n' +
-        '              Tbilisi, 0131, Georgia<br>', 'ge': '\n' +
-        '              10ა დემეტრე თავდადებულის ქუჩა, ბ. &numero;12,<br>\n' +
-        '              თბილისი, 0131, საქართველო<br>'
-    },
     'phone_number': {'en': 'Phone Number', 'ge': 'საკონტაქტო ნომერი', 'small': true},
     'gifts': {'en': 'Send me cool gadgets at', 'ge': 'ამავსეთ საჩუქრებით: '},
     'skills': {'en': 'Skills', 'ge': 'უნარები'},
@@ -94,8 +87,8 @@ const DICTIONARY = {
         'ინბოქსში შემოსულ მესიჯებზე პასუხი'
     },
     'nebula_date': {
-        'en': 'February 2017 - present',
-        'ge': 'თებერვალი 2017 - დღემდე',
+        'en': 'February 2017 - February 2018',
+        'ge': 'თებერვალი 2017 - თებერვალი 2018',
         'small': true
     },
 
