@@ -78,10 +78,11 @@ const DICTIONARY = {
     'personal': {'en': 'Personal', 'ge': 'პიროვნული'},
     'around_web': {'en': 'Around the Web', 'ge': 'მიპოვეთ ინტერნეტში'},
     'email_me': {'small': true, 'en': 'Email me at', 'ge': 'მომწერეთ ელ-ფოსტაზე '},
-    'content_man': {'en': 'Content Manager, Copywriter', 'ge': 'კონტენტ მენეჯერი, ქოფირაითერი'},
+    'content_man': {'en': 'Social Media Manager // Copywriter', 'ge': 'კონტენტ მენეჯერი // ქოფირაითერი'},
     'nebula_resp': {
         'small': true,
-        'en': 'Responsible for creating, posting, advertising (using the ads manager) content for social media and writing copy for web-site and responding to inbox messages.',
+        'en': 'Responsible for creating, posting, advertising (using the ads manager) content for social media,\n' +
+        '                  writing copy for web-site and responding to inbox messages.',
         'ge': 'კონტენტის მოფიქრება და განთავსება სოციალურ მედიაში,\n' +
         'ვებ-საიტის ქოფირაითინგი,\n' +
         'ინბოქსში შემოსულ მესიჯებზე პასუხი'
