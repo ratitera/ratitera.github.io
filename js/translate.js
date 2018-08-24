@@ -19,7 +19,7 @@ const DICTIONARY = {
     'dec': {'en': 'December', 'ge': 'დეკემბერი'},
     '': {'en': '', 'ge': ''},
     'name': {'en': 'Rati Terashvili', 'ge': 'რატი ტერაშვილი'},
-    'dig_market': {'en': 'Copywriter', 'ge': 'ქოფირაითერი'},
+    'dig_market': {'en': 'Social Media Manager // Copywriter ', 'ge': 'სოციალური მედიის მენეჯერი // ქოფირაითერი'},
     'edu': {'en': 'Education', 'ge': 'განათლება'},
     'promete': {'en': 'Private School Promete', 'ge': 'სკოლა-ლიცეუმი პრომეთე'},
     'midhigh': {'en': 'Middle/High School', 'ge': 'საშუალო სკოლა'},
@@ -78,7 +78,7 @@ const DICTIONARY = {
     'personal': {'en': 'Personal', 'ge': 'პიროვნული'},
     'around_web': {'en': 'Around the Web', 'ge': 'მიპოვეთ ინტერნეტში'},
     'email_me': {'small': true, 'en': 'Email me at', 'ge': 'მომწერეთ ელ-ფოსტაზე '},
-    'content_man': {'en': 'Social Media Manager // Copywriter', 'ge': 'კონტენტ მენეჯერი // ქოფირაითერი'},
+    'content_man': {'en': 'Content Manager, Copywriter', 'ge': 'კონტენტ მენეჯერი, ქოფირაითერი'},
     'nebula_resp': {
         'small': true,
         'en': 'Responsible for creating, posting, advertising (using the ads manager) content for social media,\n' +
