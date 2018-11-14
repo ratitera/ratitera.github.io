@@ -113,7 +113,7 @@ const DICTIONARY = {
     'punctuation': {'en': 'Proper use of punctuation marks', 'ge': 'სასვენი ნიშნების სწორად გამოყენება'},
     'space_det': {'en': 'Detecting extra whitespaces in texts', 'ge': 'ზედმეტი Space-ების შემჩნევა'},
     'googling': {'en': 'Googling', 'ge': 'დაგუგლვა'},
-    'intern_soc': {'en': 'Intern social media manager', 'ge': 'სტაჟიორი სოციალური მედიის მენეჯერი'},
+    'intern_soc': {'en': 'Intern Social Media Manager', 'ge': 'სტაჟიორი სოციალური მედიის მენეჯერი'},
     'gingers_date': {'en': 'October 2018 - November 2018', 'ge': 'ოქტომბერი 2018 - ნოემბერი 2018'},
     'gingers_resp': {
       'en': 'Responsible for managing different social media pages, advertising and making reports.',
