@@ -1,5 +1,5 @@
 function changeLang(lang) {
-    console.log(lang)
+  console.log(lang)
 }
 
 const AVAILABLE_LANGUAGES = ['ge', 'en'];
@@ -33,41 +33,41 @@ const DICTIONARY = {
     'resume': {'en': 'Resume', 'ge': 'რეზიუმე'},
     'contact': {'en': 'Contact', 'ge': 'დამიკავშირდით'},
     'about_me': {
-        'small': true,
-        'en': 'Hey, it\'s Rati over here - busy crafting efficient copies and managing social media. I\'m a fast, fast learner and love juices a lot. ',
-        'ge': 'სალამი, მე რატი ვარ - დაკავებული ეფექტური ქოფის ცხობით და სოციალური მედიის მართვით. ვსწავლობ ჩქარა-ჩქარა და ძალიან მიყვარს წვენები.'
+      'small': true,
+      'en': 'Hey, it\'s Rati over here - busy crafting efficient copies and managing social media. I\'m a fast, fast learner and love juices a lot. ',
+      'ge': 'სალამი, მე რატი ვარ - დაკავებული ეფექტური ქოფის ცხობით და სოციალური მედიის მართვით. ვსწავლობ ჩქარა-ჩქარა და ძალიან მიყვარს წვენები.'
     },
     'methodology': {'en': 'Programming Methodology', 'ge': 'პროგრამირების მეთოდოლოგა', 'small': true},
     'abstractions': {'en': 'Programming Abstractions', 'ge': 'პროგრამირების აბსტრაქციები', 'small': true},
     'paradigms': {
-        'en': 'Programming Paradigms (Computer Organization & Systems)',
-        'ge': 'პროგრამირების პარადიგმები / კომპიუტერების წყობა და სისტემები ', 'small': true
+      'en': 'Programming Paradigms (Computer Organization & Systems)',
+      'ge': 'პროგრამირების პარადიგმები / კომპიუტერების წყობა და სისტემები ', 'small': true
     },
     'rdbms': {
-        'en': 'Relational Database Management Systems',
-        'ge': 'მონაცემთა ბაზების მართვის რელაციური სისტემები',
-        'small': true
+      'en': 'Relational Database Management Systems',
+      'ge': 'მონაცემთა ბაზების მართვის რელაციური სისტემები',
+      'small': true
     },
     'algo': {'en': 'Algorithms and Data Structures', 'ge': 'მონაცემთა სტრუქტურები და ალგორითმები', 'small': true},
     'oop': {
-        'en': 'Object Oriented Programming (Software Engineering)',
-        'ge': 'ობიექტზე ორიენტირებული პროგრამირება / პროგრამული უზრუნველყოფის ინჟინერია',
-        'small': true
+      'en': 'Object Oriented Programming (Software Engineering)',
+      'ge': 'ობიექტზე ორიენტირებული პროგრამირება / პროგრამული უზრუნველყოფის ინჟინერია',
+      'small': true
     },
     'coursework': {'en': 'Related Coursework:', 'ge': 'გავლილი კურსები:'},
     'seclead': {'en': 'Teaching Assistant (Section Leader)', 'ge': 'ლექტორის ასისტენტი (სექციის ლიდერი)'},
     'seclead_date': {
-        'en': 'March 2017 - July 2017 | October 2017 - present',
-        'ge': 'მარტი 2017 - ივლისი 2017 | ოქტომბერი 2017 - დღემდე',
-        'small': true
+      'en': 'March 2017 - July 2017 | October 2017 - present',
+      'ge': 'მარტი 2017 - ივლისი 2017 | ოქტომბერი 2017 - დღემდე',
+      'small': true
     },
     'seclead_description': {
-        'small': true,
-        'en': 'Responsible for grading programming homeworks of 8-10 students (functionality, efficiency,' +
+      'small': true,
+      'en': 'Responsible for grading programming homeworks of 8-10 students (functionality, efficiency,' +
         ' styling and documenting), explaining their mistakes and providing consultations\n' +
         '\n' +
         'if necessary.',
-        'ge': 'სექციის ლიდერებს ევალებათ კონსულტაციები  გაუწიონ სტუდენტებს კომპიუტერული მეცნიერებების\n' +
+      'ge': 'სექციის ლიდერებს ევალებათ კონსულტაციები  გაუწიონ სტუდენტებს კომპიუტერული მეცნიერებების\n' +
         'ძირითად კურსებში და შეაფასონ მათ მიერ შესრულებული დავალებები აღნიშნულ კურსებში' +
         ' ფუნქციონალურობის, ეფექტურობის, სტილის და დოკუმენტაციის მიხედვით.'
     },
@@ -80,24 +80,24 @@ const DICTIONARY = {
     'email_me': {'small': true, 'en': 'Email me at', 'ge': 'მომწერეთ ელ-ფოსტაზე '},
     'content_man': {'en': 'Content Manager, Copywriter', 'ge': 'კონტენტ მენეჯერი, ქოფირაითერი'},
     'nebula_resp': {
-        'small': true,
-        'en': 'Responsible for creating, posting, advertising (using the ads manager) content for social media,\n' +
+      'small': true,
+      'en': 'Responsible for creating, posting, advertising (using the ads manager) content for social media,\n' +
         '                  writing copy for web-site and responding to inbox messages.',
-        'ge': 'კონტენტის მოფიქრება და განთავსება სოციალურ მედიაში,\n' +
+      'ge': 'კონტენტის მოფიქრება და განთავსება სოციალურ მედიაში,\n' +
         'ვებ-საიტის ქოფირაითინგი,\n' +
         'ინბოქსში შემოსულ მესიჯებზე პასუხი'
     },
     'nebula_date': {
-        'en': 'February 2017 - February 2018',
-        'ge': 'თებერვალი 2017 - თებერვალი 2018',
-        'small': true
+      'en': 'February 2017 - February 2018',
+      'ge': 'თებერვალი 2017 - თებერვალი 2018',
+      'small': true
     },
 
     'cpywrt': {'en': 'Copywriter', 'ge': 'ქოფირაითერი'},
     'bookgeo_descr': {
-        'small': true,
-        'en': 'Writing articles about Georgia in English.\n',
-        'ge': 'სტატიების წერა ინგლისურად საქართველოს სხვადასხვა კუთხეზე.'
+      'small': true,
+      'en': 'Writing articles about Georgia in English.\n',
+      'ge': 'სტატიების წერა ინგლისურად საქართველოს სხვადასხვა კუთხეზე.'
     },
     'bookgeo_date': {'en': '2017 August - present', 'ge': 'აგვისტო 2017 - დღემდე', 'small': true},
     'languages': {'en': 'Languages', 'ge': 'ენები'},
@@ -113,44 +113,51 @@ const DICTIONARY = {
     'punctuation': {'en': 'Proper use of punctuation marks', 'ge': 'სასვენი ნიშნების სწორად გამოყენება'},
     'space_det': {'en': 'Detecting extra whitespaces in texts', 'ge': 'ზედმეტი Space-ების შემჩნევა'},
     'googling': {'en': 'Googling', 'ge': 'დაგუგლვა'},
-
-
-};
-
-function translate(lang) {
-    function removeLanguages($, args) {
-        for (var i in args) {
-
-            jQuery(this).removeClass('lang-' + args[i]);
-
-            jQuery(this).removeClass('lang-' + args[i] + '-small');
-        }
+    'intern_soc': {'en': 'Intern social media manager', 'ge': 'სტაჟიორი სოციალური მედიის მენეჯერი'},
+    'gingers_date': {'en': 'October 2018 - November 2018', 'ge': 'ოქტომბერი 2018 - ნოემბერი 2018'},
+    'gingers_resp': {
+      'en': 'Responsible for managing different social media pages, advertising and making reports.',
+      'ge': 'სხვადასხვა გვერდების მართვა, დარეკლამება და შესაბამისი რეპორტების კეთება',
+      'small': true
     }
 
-    $('.lang').each(function (index, element) {
-        var key = $(this).attr('key');
-        removeLanguages($(this), AVAILABLE_LANGUAGES);
+  }
+;
 
-        try {
+function translate(lang) {
+  function removeLanguages($, args) {
+    for (var i in args) {
 
-            $(this).html(DICTIONARY[key][lang]);
+      jQuery(this).removeClass('lang-' + args[i]);
 
-            $(this).addClass('lang-' + lang + (DICTIONARY[key]['small'] === true ? '-small' : ''));
-        } catch (e) {
-            console.error(key)
-        }
-    });
+      jQuery(this).removeClass('lang-' + args[i] + '-small');
+    }
+  }
+
+  $('.lang').each(function (index, element) {
+    var key = $(this).attr('key');
+    removeLanguages($(this), AVAILABLE_LANGUAGES);
+
+    try {
+
+      $(this).html(DICTIONARY[key][lang]);
+
+      $(this).addClass('lang-' + lang + (DICTIONARY[key]['small'] === true ? '-small' : ''));
+    } catch (e) {
+      console.error(key)
+    }
+  });
 
 }
 
 function initTranslation() {
 
-    $('.translate').click(function () {
-        var lang = $(this).attr('id');
-        translate(lang);
-    });
-    var currentLang = document.getElementsByTagName('html')[0].getAttribute('lang');
-    if (AVAILABLE_LANGUAGES.indexOf(currentLang.toLowerCase()) !== -1) {
-        translate(currentLang);
-    }
+  $('.translate').click(function () {
+    var lang = $(this).attr('id');
+    translate(lang);
+  });
+  var currentLang = document.getElementsByTagName('html')[0].getAttribute('lang');
+  if (AVAILABLE_LANGUAGES.indexOf(currentLang.toLowerCase()) !== -1) {
+    translate(currentLang);
+  }
 }
