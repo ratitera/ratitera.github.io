@@ -119,8 +119,14 @@ const DICTIONARY = {
       'en': 'Responsible for managing different social media pages, advertising and making reports.',
       'ge': 'სხვადასხვა გვერდების მართვა, დარეკლამება და შესაბამისი რეპორტების კეთება',
       'small': true
+    },
+    'soc_media': {'en': 'Social Media Manager', 'ge': 'სოციალური მედიის მენეჯერი'},
+    'vendoo_date': {'en': 'February 2019 - present', 'ge': 'თებერვალი 2018 - დღემდე'},
+    'vendoo_resp': {
+        'en': '',
+        'ge': '',
+        'small': true
     }
-
   }
 ;
 
