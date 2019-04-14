@@ -1,6 +1,3 @@
-function changeLang(lang) {
-    console.log(lang)
-}
 
 const AVAILABLE_LANGUAGES = ['ge', 'en'];
 
