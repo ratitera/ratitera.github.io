@@ -8,7 +8,7 @@
   <meta name="author" content="Rati Terashvili">
   <meta name="keywords" content="Rati, Rati Terashvili,Java,C#,PHP,HTML,CSS,JavaScript, Developer, Web, Front">
 
-  <title class="lang" key="name">Rati Terashvili</title>
+  <title class="lang" data-key="name">Rati Terashvili</title>
   <link type="text/css" rel="stylesheet" href="vendor/lightslider/css/lightslider.css"/>
 
   <script src="vendor/lightslider/js/lightslider.js"></script>
@@ -45,7 +45,7 @@
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
   <div class="container">
-    <a class="navbar-brand js-scroll-trigger lang" href="#page-top" key="name">Rati Terashvili
+    <a class="navbar-brand js-scroll-trigger lang" data-key="name" href="#page-top">Rati Terashvili
     </a>
     <ul class="navbar-nav navbar-left">
 
@@ -63,15 +63,15 @@
         <!--</li>-->
 
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger lang" key="resume" href="#resume">Contact</a>
+          <a class="nav-link js-scroll-trigger lang" data-key="resume" href="#resume">Contact</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger lang" href="#about" key="about">About</a>
+          <a class="nav-link js-scroll-trigger lang" data-key="about" href="#about">About</a>
         </li>
 
 
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger lang" key="contact" href="#contact">Contact</a>
+          <a class="nav-link js-scroll-trigger lang" data-key="contact" href="#contact">Contact</a>
         </li>
         <li class="nav-item nav-link">
           <a onclick="changeLang('ge')">
@@ -108,10 +108,10 @@
     </div>
     <!--<img class="img-fluid " id="prof_image" src="img/profile.png" alt="Rati Terashvili">-->
     <div class="intro-text">
-      <span class="name lang" key="name">Rati Terashvili</span>
+      <span class="name lang" data-key="name">Rati Terashvili</span>
       <hr class="star-light">
 
-      <span class="skills lang" key="dig_market">Social Media Manager // Copywriter </span>
+      <span class="skills lang" data-key="dig_market">Social Media Manager // Copywriter </span>
     </div>
   </div>
 </header>
@@ -133,7 +133,7 @@
         <div class="row education">
 
           <div class="three columns header-col">
-            <h1><span class="lang" key="edu">Education</span></h1>
+            <h1><span class="lang" data-key="edu">Education</span></h1>
           </div>
 
           <div class="nine columns main-col">
@@ -142,10 +142,11 @@
 
               <div class="twelve columns">
 
-                <h3 class="lang" key="freeuni">Free University of Tbilisi</h3>
-                <p class="info "><span class="lang" key="degree">Bachelor of Social Sciences</span> <span>&bull;</span>
+                <h3 class="lang" data-key="freeuni">Free University of Tbilisi</h3>
+                <p class="info "><span class="lang" data-key="degree">Bachelor of Social Sciences</span>
+                  <span>&bull;</span>
                   <em
-                          class="date lang" key="date">September 2015 - Present</em></p>
+                          class="date lang" data-key="date">September 2015 - Present</em></p>
               </div>
 
             </div> <!-- item end -->
@@ -154,8 +155,8 @@
 
               <div class="twelve columns">
 
-                <h3 class="lang" key="promete">Private School Promete</h3>
-                <p class="info "><span class="lang" key="midhigh">Middle/High School</span> <span>&bull;</span>
+                <h3 class="lang" data-key="promete">Private School Promete</h3>
+                <p class="info "><span class="lang" data-key="midhigh">Middle/High School</span> <span>&bull;</span>
                   <em
                           class="date">2003 - 2015</em></p>
               </div>
@@ -170,7 +171,7 @@
         <div class="row work">
 
           <div class="three columns header-col">
-            <h1><span class="lang" key="work">Work</span></h1>
+            <h1><span class="lang" data-key="work">Work</span></h1>
           </div>
 
           <div class="nine columns main-col">
@@ -178,11 +179,36 @@
 
               <div class="twelve columns">
 
-                <h3><a class="work_link" href="http://vendoo.ge/" target="_blank">Vendoo</a></h3>
-                <p class="info"><span class="lang" key="soc_media">Intern Social Media Manager</span>
-                  <span>&bull;</span> <em class="date lang" key="vendoo_date">October 2018 - November 2018</em></p>
+                <h3><a class="work_link" href="http://swoop.ge/" target="_blank">Swoop.ge</a></h3>
+                <p class="info"><span class="lang" data-key="marketing_manager">Marketing manager</span>
+                  <span>&bull;</span>
+                  <em class="date">
+                    <span class="lang lang-en" data-key="feb" style="">February</span> 2019 -
+                    <span class="lang lang-en" data-key="present" style="">present</span>
+                  </em></p>
 
-                <p class="lang" key="vendoo_resp">
+                <p class="lang" data-key="vendoo_resp">
+                  Responsible for managing different social media pages, advertising and making reports.
+                </p>
+
+              </div>
+
+            </div>
+            <div style="border-bottom: solid white 1px"></div>
+            <br>
+            <div class="row item">
+
+              <div class="twelve columns">
+
+                <h3><a class="work_link" href="http://vendoo.ge/" target="_blank">Vendoo</a></h3>
+                <p class="info"><span class="lang" data-key="dig_market">Social Media Manager // Copywriter </span>
+                  <span>&bull;</span>
+                  <em class="date">
+                    <span class="lang lang-en" data-key="feb" style="">February</span> 2019 -
+                    <span class="lang lang-en" data-key="feb" style="">February</span> 2019
+                  </em>
+
+                <p class="lang" data-key="vendoo_resp">
                   Responsible for managing different social media pages, advertising and making reports.
                 </p>
 
@@ -197,10 +223,11 @@
               <div class="twelve columns">
 
                 <h3><a class="work_link" href="http://gingers.ge/" target="_blank">Gingers</a></h3>
-                <p class="info"><span class="lang" key="intern_soc">Intern Social Media Manager</span>
-                  <span>&bull;</span> <em class="date lang" key="gingers_date">October 2018 - November 2018</em></p>
+                <p class="info"><span class="lang" data-key="intern_soc">Intern Social Media Manager</span>
+                  <span>&bull;</span> <em class="date lang" data-key="gingers_date">October 2018 - November 2018</em>
+                </p>
 
-                <p class="lang" key="gingers_resp">
+                <p class="lang" data-key="gingers_resp">
                   Responsible for managing different social media pages, advertising and making reports.
                 </p>
 
@@ -214,10 +241,11 @@
               <div class="twelve columns">
 
                 <h3><a href="http://nebula.ge/" target="_blank" class="work_link">ნებულა • Nebula </a></h3>
-                <p class="info"><span class="lang" key="content_man">Content Manager, Copywriter</span>
-                  <span>&bull;</span> <em class="date lang" key="nebula_date">February 2017 - February 2018</em></p>
+                <p class="info"><span class="lang" data-key="content_man">Content Manager, Copywriter</span>
+                  <span>&bull;</span> <em class="date lang" data-key="nebula_date">February 2017 - February 2018</em>
+                </p>
 
-                <p class="lang" key="nebula_resp">
+                <p class="lang" data-key="nebula_resp">
                   Responsible for creating, posting, advertising (using the ads manager) content for social media,
                   writing copy for web-site and responding to inbox messages.
                 </p>
@@ -235,12 +263,12 @@
                   <a href="http://bookgeorgiatravel.com/" target="_blank" class="work_link">
                     Book Georgia Travel
                   </a></h3>
-                <p class="info"><span class="lang" key="cpywrt">Copywriter</span>
+                <p class="info"><span class="lang" data-key="cpywrt">Copywriter</span>
                   <span>&bull;</span> <em
-                          class="date lang" key="bookgeo_date">2017 August - present</em>
+                          class="date lang" data-key="bookgeo_date">2017 August - present</em>
                 </p>
 
-                <p class="lang" key="bookgeo_descr">
+                <p class="lang" data-key="bookgeo_descr">
                   Writing articles about Georgia in English.
                 </p>
 
@@ -257,20 +285,21 @@
       </div>
       <div class="g1">
         <div class="sidebar">
-          <h3 class="lang" key="skills">
+          <h3 class="lang" data-key="skills">
             Skills
           </h3>
-          <h5 class="lang" key="languages">
+          <h5 class="lang" data-key="languages">
             Languages
           </h5>
 
           <div class="bar-1">
             <div class="title" style="color: white;">
-              <span class="lang" key="lang_ge">Georgian</span><span class="flag-icon flag-icon-ge skill-flag"></span>
+              <span class="lang" data-key="lang_ge">Georgian</span><span
+                    class="flag-icon flag-icon-ge skill-flag"></span>
             </div>
             <div class="bar" data-width="100%">
               <div class="bar-inner" style="background: #B71C1C;">
-                <span class="lang skill_decription" key="lang_nat">Native</span>
+                <span class="lang skill_decription" data-key="lang_nat">Native</span>
               </div>
               <!--<div class="bar-percent">75%</div>-->
             </div>
@@ -280,14 +309,15 @@
 
             <div class="title" style="color: white;">
 
-              <span class="lang  " key="lang_en">English</span><span class="flag-icon flag-icon-gb skill-flag"></span>
+              <span class="lang  " data-key="lang_en">English</span><span
+                    class="flag-icon flag-icon-gb skill-flag"></span>
               <!--style="height: 24px; width: 32px;"-->
             </div>
 
 
             <div class="bar" data-width="90%">
               <div class="bar-inner" style="background: #00247c;">
-                <span class="lang skill_decription" key="lang_flu">Fluent</span>
+                <span class="lang skill_decription" data-key="lang_flu">Fluent</span>
               </div>
               <!--<div class="bar-percent">60%</div>-->
             </div>
@@ -296,15 +326,16 @@
 
           <div class="bar-1">
             <div class="title" style="color: white;">
-              <span class="lang" key="lang_ru">Russian</span><span class="flag-icon flag-icon-ru skill-flag"></span>
+              <span class="lang" data-key="lang_ru">Russian</span><span
+                    class="flag-icon flag-icon-ru skill-flag"></span>
             </div>
             <div class="bar" data-width="40%">
               <div class="bar-inner" style="background: #d52b1e;">
-                <span class="lang skill_decription" key="lang_lim">Limited</span>
+                <span class="lang skill_decription" data-key="lang_lim">Limited</span>
               </div>
             </div>
           </div>
-          <h5 class="lang" key="soft">
+          <h5 class="lang" data-key="soft">
             Software
           </h5>
 
@@ -330,11 +361,11 @@
               <!--<div class="bar-percent">20%</div>-->
             </div>
           </div>
-          <h5 class="lang" key="personal">Personal</h5>
+          <h5 class="lang" data-key="personal">Personal</h5>
 
 
           <div class="bar-1">
-            <div class="title lang" key="func_writing" style="color: white;">
+            <div class="title lang" data-key="func_writing" style="color: white;">
               Functional and laconic writing
             </div>
             <div class="bar" data-width="90%">
@@ -345,7 +376,7 @@
             </div>
           </div>
           <div class="bar-1">
-            <div class="title lang" key="punctuation" style="color: white;">
+            <div class="title lang" data-key="punctuation" style="color: white;">
               Proper use of punctuation marks
             </div>
             <div class="bar" data-width="95%">
@@ -356,7 +387,7 @@
             </div>
           </div>
           <div class="bar-1">
-            <div class="title lang" key="space_det" style="color: white;">
+            <div class="title lang" data-key="space_det" style="color: white;">
               Detecting extra whitespaces in texts
             </div>
             <div class="bar" data-width="85%">
@@ -367,7 +398,7 @@
             </div>
           </div>
           <div class="bar-1">
-            <div class="title lang" key="googling" style="color: white;">
+            <div class="title lang" data-key="googling" style="color: white;">
               Googling
             </div>
             <div class="bar" data-width="90%">
@@ -385,11 +416,11 @@
 </section>
 <section class="success" id="about">
   <div class="container">
-    <h2 class="text-center lang" key="about_2">About Me</h2>
+    <h2 class="text-center lang" data-key="about_2">About Me</h2>
     <hr class="star-light">
     <div class="row text-center">
       <div class="col-lg-12 ml-auto ">
-        <p class="lang" key="about_me">
+        <p class="lang" data-key="about_me">
           Hey, it's Rati over here - busy crafting efficient copies and managing social media. I'm a fast, fast learner
           and love juices a lot.
         </p>
@@ -397,7 +428,7 @@
       <!--<div class="col-lg-8 mx-auto text-center">-->
       <!--<a href="Rati_Terashvili.pdf" class="btn btn-lg btn-outline" target="_blank">-->
       <!--<i class="fa fa-download"></i>-->
-      <!--<span id="down" class="lang" key="down_cv">Download resume</span>-->
+      <!--<span id="down" class="lang" data-key="down_cv">Download resume</span>-->
       <!--</a>-->
     </div>
 
@@ -407,7 +438,7 @@
 <!-- Contact Section -->
 <section id="contact">
   <div class="container">
-    <h2 class="text-center lang" key="contact">Contact Me</h2>
+    <h2 class="text-center lang" data-key="contact">Contact Me</h2>
     <hr class="star-primary">
     <div class="row">
       <div class="col-lg-8 mx-auto">
@@ -417,9 +448,9 @@
         <ul>
           <!--<li class="col-sm-8">-->
           <!--<i class="fa fa-map-marker"></i>-->
-          <!--<span class="lang" key="gifts">Send me cool gadgets at</span>-->
+          <!--<span class="lang" data-key="gifts">Send me cool gadgets at</span>-->
           <!--<a href="https://goo.gl/maps/eTe6Zuwnkfk" target="_blank">-->
-          <!--<address class="lang" key="address">-->
+          <!--<address class="lang" data-key="address">-->
           <!--10a Demetre Tavdadebuli Street, Apt &numero;12,<br>-->
           <!--Tbilisi, Georgia<br>-->
           <!--</address>-->
@@ -428,14 +459,14 @@
           <li class="col-sm-7">
 
             <div class="contact-number">
-              <i class="fa fa-mobile"></i> <strong class="lang" key="phone_number">Phone Number</strong>
+              <i class="fa fa-mobile"></i> <strong class="lang" data-key="phone_number">Phone Number</strong>
               <a href="tel:+995557718899">(+995) 557-71-88-99</a><br>
             </div>
           </li>
           <li class="col-sm-11">
             <div class="contact-email">
               <i class="fa fa-envelope"></i>
-              <span class="lang" key="email_me">Email me at </span>
+              <span class="lang" data-key="email_me">Email me at </span>
               <a href="mailto:rtera15@freeuni.edu.ge">rtera15@freeuni.edu.ge</a>
             </div>
           </li>
@@ -452,7 +483,7 @@
       <div class="row">
         <div class="footer-col col-md-4"></div>
         <div class="footer-col col-md-4">
-          <h3 class="lang" key="around_web">Around the Web</h3>
+          <h3 class="lang" data-key="around_web">Around the Web</h3>
           <ul class="list-inline">
             <li class="list-inline-item">
               <a class="btn-social btn-outline" href="https://fb.com/mufnt" target="_blank">
