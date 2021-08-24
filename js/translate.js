@@ -1,4 +1,3 @@
-
 const AVAILABLE_LANGUAGES = ['ge', 'en'];
 
 const DICTIONARY = {
@@ -125,6 +124,26 @@ const DICTIONARY = {
             'en': '',
             'ge': '',
             'small': true
+        },
+        'aldagi_title': {
+            'en': 'Aldagi',
+            'ge': 'ალდაგი'
+        },
+        'aldagi_desc': {
+            'en': 'Aldagi',
+            'ge': 'ალდაგი'
+        },
+        'soc_media_specialist': {
+            'en': 'Social Media Specialist',
+            'ge': 'სოციალური მედიის სპეციალისტი'
+        },
+        'bog_title': {
+            'en': 'Bank of Georgia',
+            'ge': 'საქართველოს ბანკი'
+        },
+        'founder_ceo': {
+            'en': 'Co-Founder and CEO',
+            'ge': 'თანადამფუძნებელი და დირექტორი'
         }
     }
 ;
